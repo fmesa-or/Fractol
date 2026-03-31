@@ -1,0 +1,138 @@
+Start testing: Apr 20 21:25 CEST
+----------------------------------------------------------
+1/5 Testing: MLX42.Window.Basic
+1/5 Test: MLX42.Window.Basic
+Command: "/Users/fmesa-or/MLX42/build/unit_tests" "--gtest_filter=Window.Basic" "--gtest_also_run_disabled_tests"
+Directory: /Users/fmesa-or/MLX42/tests
+"MLX42.Window.Basic" start time: Apr 20 21:25 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/fmesa-or/MLX42/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Window.Basic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Window
+[ RUN      ] Window.Basic
+[       OK ] Window.Basic (99 ms)
+[----------] 1 test from Window (99 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"MLX42.Window.Basic" end time: Apr 20 21:25 CEST
+"MLX42.Window.Basic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: MLX42.Window.SingleImage
+2/5 Test: MLX42.Window.SingleImage
+Command: "/Users/fmesa-or/MLX42/build/unit_tests" "--gtest_filter=Window.SingleImage" "--gtest_also_run_disabled_tests"
+Directory: /Users/fmesa-or/MLX42/tests
+"MLX42.Window.SingleImage" start time: Apr 20 21:25 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/fmesa-or/MLX42/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Window.SingleImage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Window
+[ RUN      ] Window.SingleImage
+[       OK ] Window.SingleImage (99 ms)
+[----------] 1 test from Window (99 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (100 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"MLX42.Window.SingleImage" end time: Apr 20 21:25 CEST
+"MLX42.Window.SingleImage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: MLX42.Window.MultipleImages
+3/5 Test: MLX42.Window.MultipleImages
+Command: "/Users/fmesa-or/MLX42/build/unit_tests" "--gtest_filter=Window.MultipleImages" "--gtest_also_run_disabled_tests"
+Directory: /Users/fmesa-or/MLX42/tests
+"MLX42.Window.MultipleImages" start time: Apr 20 21:25 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/fmesa-or/MLX42/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Window.MultipleImages
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Window
+[ RUN      ] Window.MultipleImages
+[       OK ] Window.MultipleImages (98 ms)
+[----------] 1 test from Window (98 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (98 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"MLX42.Window.MultipleImages" end time: Apr 20 21:25 CEST
+"MLX42.Window.MultipleImages" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: MLX42.Window.stringTortureTest
+4/5 Test: MLX42.Window.stringTortureTest
+Command: "/Users/fmesa-or/MLX42/build/unit_tests" "--gtest_filter=Window.stringTortureTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/fmesa-or/MLX42/tests
+"MLX42.Window.stringTortureTest" start time: Apr 20 21:25 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/fmesa-or/MLX42/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Window.stringTortureTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Window
+[ RUN      ] Window.stringTortureTest
+[       OK ] Window.stringTortureTest (956 ms)
+[----------] 1 test from Window (956 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (956 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.97 sec
+----------------------------------------------------------
+Test Passed.
+"MLX42.Window.stringTortureTest" end time: Apr 20 21:25 CEST
+"MLX42.Window.stringTortureTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: MLX42.MWindow.Settings
+5/5 Test: MLX42.MWindow.Settings
+Command: "/Users/fmesa-or/MLX42/build/unit_tests" "--gtest_filter=MWindow.Settings" "--gtest_also_run_disabled_tests"
+Directory: /Users/fmesa-or/MLX42/tests
+"MLX42.MWindow.Settings" start time: Apr 20 21:25 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/fmesa-or/MLX42/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MWindow.Settings
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MWindow
+[ RUN      ] MWindow.Settings
+[       OK ] MWindow.Settings (1135 ms)
+[----------] 1 test from MWindow (1135 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1135 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.15 sec
+----------------------------------------------------------
+Test Passed.
+"MLX42.MWindow.Settings" end time: Apr 20 21:25 CEST
+"MLX42.MWindow.Settings" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Apr 20 21:25 CEST
