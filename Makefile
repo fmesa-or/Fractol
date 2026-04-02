@@ -6,7 +6,7 @@
 #    By: fmesa-or <fmesa-or@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/20 21:28:15 by fmesa-or          #+#    #+#              #
-#    Updated: 2024/05/15 20:48:40 by fmesa-or         ###   ########.fr        #
+#    Updated: 2026/04/02 16:20:20 by fmesa-or         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,7 +52,7 @@ COLOR_RESET = \033[0m
 all: $(NAME)
 
 $(NAME): $(LIBFT) $(MLX42) $(PRINTF) $(OBJS)
-	@$(CC) $(OBJS) $(MLX42) $(PRINTF) $(LIBFT) $(HEADERS) -lglfw -L /Users/$(USER)/.brew/opt/glfw/lib/ -o $(NAME)
+	@$(CC) $(OBJS) $(MLX42) $(PRINTF) $(LIBFT) $(HEADERS) -lglfw -L /usr/local/opt/glfw/lib/ -o $(NAME)
 
 %.o: %.c
 	@$(CC) $(CFLAGS) -o $@ -c $< $(HEADERS) && printf "$(COLOR_INFO)Compiling: $(notdir $<)$(COLOR_RESET)\t\t"
